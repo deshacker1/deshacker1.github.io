@@ -2,35 +2,100 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Okello Desmond | SOC Analyst | WhatsApp +256767644005</title>
-<meta name="description" content="Okello Desmond SOC Analyst Nsangi Kampala Uganda LinkedIn okello-desmond-5a7908436 WhatsApp 256767644005">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Okello Desmond | SOC Analyst Uganda | +256767644005</title>
+<meta name="description" content="Okello Desmond - SOC Analyst Nsangi Kampala Uganda. WhatsApp +256767644005, LinkedIn okello-desmond-5a7908436">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-body{font-family:system-ui;background:#0d1117;color:#e6edf3;margin:0;text-align:center}
-.header{padding:50px 20px;background:#161b22;border-bottom:1px solid #30363d}
-.card{background:#161b22;border:1px solid #30363d;border-radius:16px;padding:22px;margin:20px auto;max-width:750px;text-align:left}
-.btn{padding:14px 22px;border-radius:10px;display:inline-block;margin:6px;font-weight:700;color:white;text-decoration:none}
-.wa{background:#25D366} .li{background:#0A66C2} .gh{background:#238636}
-h1{color:#58a6ff;font-size:38px}
+:root{--blue:#58a6ff;--green:#238636;--bg:#0d1117;--card:#161b22;--border:#30363d}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:#e6edf3;font-family:system-ui,-apple-system,sans-serif;line-height:1.6}
+.header{background:radial-gradient(800px circle at top,#1f6feb18,#0d1117 60%);padding:60px 20px;text-align:center;border-bottom:1px solid var(--border)}
+h1{font-size:42px;color:var(--blue);text-shadow:0 0 20px #58a6ff44}
+.typing{font-size:20px;color:#8b949e;height:30px;margin:10px 0;font-family:monospace}
+.typing::after{content:"|";animation:blink 1s infinite}
+@keyframes blink{50%{opacity:0}}
+.badge{background:linear-gradient(90deg,#238636,#2ea043);padding:8px 18px;border-radius:20px;font-size:13px;display:inline-block;margin:15px 0;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+.container{max-width:800px;margin:0 auto;padding:20px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin:24px 0;transition:0.3s}
+.card:hover{border-color:var(--blue);box-shadow:0 0 20px #58a6ff15;transform:translateY(-3px)}
+.btn{padding:13px 24px;border-radius:12px;display:inline-block;margin:6px;font-weight:700;color:white;text-decoration:none;transition:0.2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 5px 15px #0005}
+.wa{background:#25D366}.li{background:#0A66C2}.gh{background:#238636}.cv{background:#1f6feb}
+.tag{background:#58a6ff18;color:var(--blue);border:1px solid #58a6ff33;padding:5px 12px;border-radius:20px;font-size:12px;margin:4px;display:inline-block}
+.flag{font-size:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:15px}
+.stat{background:#0d1117;border:1px solid var(--border);padding:14px;border-radius:12px;text-align:center}
+.stat b{color:var(--blue);font-size:22px;display:block}
 </style>
 </head>
 <body>
 <div class="header">
+<div style="font-size:60px">🛡️</div>
 <h1>Okello Desmond</h1>
-<p><b>SOC Analyst | Cybersecurity | Pen Tester</b><br>📍 Nsangi, Kampala, Uganda<br>🟢 Open to Work</p>
-<a class="btn wa" href="https://wa.me/256767644005">WhatsApp +256767644005</a>
-<a class="btn li" href="https://www.linkedin.com/in/okello-desmond-5a7908436">LinkedIn</a>
-<a class="btn gh" href="https://github.com/deshacker1">GitHub</a>
+<div class="typing" id="typing"></div>
+<p><i class="fas fa-map-marker-alt" style="color:#f85149"></i> Nsangi, Kampala, Uganda <span class="flag">🇺🇬</span><br>🟢 <b>Open to Work</b> — SOC Analyst Roles</p>
+<span class="badge"><i class="fas fa-circle" style="font-size:8px"></i> Available for Remote & On-site</span><br><br>
+<a class="btn wa" href="https://wa.me/256767644005?text=Hi%20Okello%20Desmond%2C%20I%20saw%20your%20portfolio%20at%20deshacker1.github.io%20and%20want%20to%20hire%20you"><i class="fab fa-whatsapp"></i> WhatsApp +256767644005</a><br>
+<a class="btn li" href="https://www.linkedin.com/in/okello-desmond-5a7908436"><i class="fab fa-linkedin"></i> LinkedIn</a>
+<a class="btn gh" href="https://github.com/deshacker1"><i class="fab fa-github"></i> GitHub</a>
+<a class="btn cv" href="https://www.linkedin.com/in/okello-desmond-5a7908436"><i class="fas fa-file-alt"></i> View CV</a>
+<div class="grid" style="max-width:500px;margin:20px auto">
+<div class="stat"><b>1+</b>Security Projects</div>
+<div class="stat"><b>100%</b>Termux Built</div>
+<div class="stat"><b>24/7</b>SOC Ready</div>
 </div>
+</div>
+
+<div class="container">
+
 <div class="card">
-<h2>🛡️ Secure Login Defender</h2>
-<p>Built on Termux by Okello Desmond. Blocks XSS, fixes Termux DNS, stops brute-force.</p>
-<a class="btn gh" href="https://github.com/deshacker1/secure-login-defender">View Code</a>
+<h2><i class="fas fa-shield-alt" style="color:var(--blue)"></i> Featured — Secure Login Defender</h2>
+<p style="margin:12px 0">Enterprise-grade secure login system built <b>entirely on Android Termux</b> from Nsangi, Kampala by Okello Desmond. This is my proof of SOC-ready thinking: building secure tools under constraints.</p>
+<p><b>What it solves:</b><br>
+• XSS attacks → Fixed with <code>htmlspecialchars()</code><br>
+• Termux localhost DNS fail → Custom resolver fix<br>
+• Brute-force → Rate limiting + lockout logic</p>
+<p style="margin-top:12px"><span class="tag">SOC Analysis</span> <span class="tag">PHP Security</span> <span class="tag">XSS Prevention</span> <span class="tag">Incident Response</span> <span class="tag">Termux</span> <span class="tag">Safe Coder L5</span></p>
+<a class="btn gh" href="https://github.com/deshacker1/secure-login-defender" style="margin-top:15px"><i class="fas fa-code"></i> View Source Code</a>
+<a class="btn" style="background:var(--card);border:1px solid var(--border)" href="https://www.linkedin.com/in/okello-desmond-5a7908436"><i class="fas fa-external-link-alt"></i> Case Study on LinkedIn</a>
 </div>
+
 <div class="card">
-<h2>Contact</h2>
-<p>WhatsApp: +256 767 644005<br>LinkedIn: okello-desmond-5a7908436<br>GitHub: deshacker1<br>Portfolio: deshacker1.github.io</p>
+<h2><i class="fas fa-user-secret"></i> About — Okello Desmond</h2>
+<p>I am <b>Okello Desmond</b>, Cybersecurity Professional & SOC Analyst from Central Region, Uganda. I specialize in building defensive tools where others see limitations — like creating a production-grade login defender on a phone.</p>
+<p style="margin-top:10px"><b>Mission:</b> Secure Ugandan SMEs and African startups with affordable SOC monitoring.</p>
+<p style="margin-top:10px"><b>Stack:</b> Threat Detection | Log Analysis | PHP | Linux (Termux) | Brute-Force Mitigation | Vulnerability Assessment</p>
 </div>
+
+<div class="card" style="text-align:center">
+<h2><i class="fas fa-paper-plane"></i> Let's Secure Something Together</h2>
+<p>Recruiter? Founder? Let's talk on WhatsApp — I reply in 10 mins.</p>
+<p style="margin:15px 0">
+<i class="fab fa-whatsapp" style="color:#25D366"></i> <a href="https://wa.me/256767644005"><b>+256 767 644005</b></a><br>
+<i class="fab fa-linkedin" style="color:#0A66C2"></i> <a href="https://www.linkedin.com/in/okello-desmond-5a7908436">linkedin.com/in/okello-desmond-5a7908436</a><br>
+<i class="fab fa-github"></i> github.com/deshacker1<br>
+<i class="fas fa-globe"></i> deshacker1.github.io
+</p>
+<a class="btn wa" href="https://wa.me/256767644005"><i class="fab fa-whatsapp"></i> Message Now</a>
+<a class="btn li" href="https://www.linkedin.com/in/okello-desmond-5a7908436">Connect on LinkedIn</a>
+<p style="font-size:11px;color:#8b949e;margin-top:20px">Search Google: "Okello Desmond Cybersecurity Uganda" | "Okello Desmond SOC Analyst" | "Okello Desmond +256767644005"</p>
+</div>
+
+<p style="text-align:center;color:#8b949e;font-size:12px;margin:30px 0">© 2026 Okello Desmond — Built on Termux in Nsangi, Kampala 🇺🇬 | WhatsApp +256767644005</p>
+</div>
+
+<script>
+const texts=["SOC Analyst | Cybersecurity | Pen Tester","Secure Login Defender Creator","Built on Termux from Kampala 🇺🇬","Open to SOC Roles — Remote & On-site"];
+let i=0,j=0,del=false;
+function type(){
+  let t=texts[i];
+  document.getElementById("typing").textContent=t.substring(0,j);
+  if(!del){j++;if(j>t.length){del=true;setTimeout(type,1500);return}}else{j--;if(j==0){del=false;i=(i+1)%texts.length}}
+  setTimeout(type, del?40:80);
+}
+type();
+</script>
 </body>
 </html>
